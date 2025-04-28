@@ -1,7 +1,6 @@
 import { writeFile } from 'fs/promises';
 
 const create = async () => {
-  // Write your code here
   const content = 'I am fresh and young';
   const fileName = 'fresh.txt';
 

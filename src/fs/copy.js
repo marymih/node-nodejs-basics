@@ -2,7 +2,6 @@ import { cp, access } from 'fs/promises';
 import { constants } from 'fs';
 
 const copy = async () => {
-  // Write your code here
   const source = 'src/fs/files';
   const destination = 'src/fs/files_copy';
 

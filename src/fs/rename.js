@@ -2,7 +2,6 @@ import { rename as renameFile, access } from 'fs/promises';
 import { constants } from 'fs';
 
 const rename = async () => {
-  // Write your code here
   const fileName = 'wrongFilename.txt';
   const newFileName = 'properFilename.md';
   const filePath = `src/fs/files/${fileName}`;

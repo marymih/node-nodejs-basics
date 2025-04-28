@@ -1,5 +1,4 @@
 const parseArgs = () => {
-  // Write your code here
   try {
     const args = process.argv.slice(2);
     const parsedArgs = [];

@@ -1,5 +1,4 @@
 const parseEnv = () => {
-  // Write your code here
   try {
     const parsedEnv = Object.entries(process.env)
       .filter(([key]) => key.startsWith('RSS_'))
